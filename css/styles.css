@@ -173,6 +173,7 @@ img{
     background-position: right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
+    padding-bottom: var(--separacion);
 }
 
 .notavif.notwebp .sobre-tech{
@@ -393,7 +394,7 @@ img{
 
 .contenido-newsletter{
     display: grid;
-    grid-template-rows: repeat(2, 30rem);
+    grid-template-rows: repeat(2, 35rem);
     gap: var(--separacion);
 }
 
@@ -438,5 +439,5 @@ img{
     text-transform: uppercase;
     font-size: 2.4rem;
     color: var(--primario);
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
